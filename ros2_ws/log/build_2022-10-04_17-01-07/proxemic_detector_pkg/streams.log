@@ -1,0 +1,21 @@
+[0.492s] Invoking command in '/home/yifu/ros2_ws/src/proxemic_detector_pkg': PYTHONPATH=/home/yifu/ros2_ws/install/proxemic_detector_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/proxemic_detector_pkg build --build-base /home/yifu/ros2_ws/build/proxemic_detector_pkg/build install --prefix /home/yifu/ros2_ws/install/proxemic_detector_pkg --record /home/yifu/ros2_ws/build/proxemic_detector_pkg/install.log --single-version-externally-managed
+[0.616s] running egg_info
+[0.617s] writing ../../build/proxemic_detector_pkg/proxemic_detector_pkg.egg-info/PKG-INFO
+[0.617s] writing dependency_links to ../../build/proxemic_detector_pkg/proxemic_detector_pkg.egg-info/dependency_links.txt
+[0.617s] writing entry points to ../../build/proxemic_detector_pkg/proxemic_detector_pkg.egg-info/entry_points.txt
+[0.617s] writing requirements to ../../build/proxemic_detector_pkg/proxemic_detector_pkg.egg-info/requires.txt
+[0.617s] writing top-level names to ../../build/proxemic_detector_pkg/proxemic_detector_pkg.egg-info/top_level.txt
+[0.641s] reading manifest file '../../build/proxemic_detector_pkg/proxemic_detector_pkg.egg-info/SOURCES.txt'
+[0.642s] writing manifest file '../../build/proxemic_detector_pkg/proxemic_detector_pkg.egg-info/SOURCES.txt'
+[0.642s] running build
+[0.642s] running build_py
+[0.642s] running install
+[0.642s] running install_lib
+[0.644s] running install_data
+[0.645s] running install_egg_info
+[0.646s] removing '/home/yifu/ros2_ws/install/proxemic_detector_pkg/lib/python3.8/site-packages/proxemic_detector_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.646s] Copying ../../build/proxemic_detector_pkg/proxemic_detector_pkg.egg-info to /home/yifu/ros2_ws/install/proxemic_detector_pkg/lib/python3.8/site-packages/proxemic_detector_pkg-0.0.0-py3.8.egg-info
+[0.646s] running install_scripts
+[0.657s] Installing turtlebot_proxemic_detector_node script to /home/yifu/ros2_ws/install/proxemic_detector_pkg/lib/proxemic_detector_pkg
+[0.657s] writing list of installed files to '/home/yifu/ros2_ws/build/proxemic_detector_pkg/install.log'
+[0.672s] Invoked command in '/home/yifu/ros2_ws/src/proxemic_detector_pkg' returned '0': PYTHONPATH=/home/yifu/ros2_ws/install/proxemic_detector_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/proxemic_detector_pkg build --build-base /home/yifu/ros2_ws/build/proxemic_detector_pkg/build install --prefix /home/yifu/ros2_ws/install/proxemic_detector_pkg --record /home/yifu/ros2_ws/build/proxemic_detector_pkg/install.log --single-version-externally-managed
