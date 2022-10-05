@@ -118,12 +118,14 @@ class ProxemicDetection(Node):
         
 
         # Initialize variables
-        '''
-        x = ... # linear
-        z = ... # angular in degrees
+
+        # x = ... # linear
+        # z = ... # angular in degrees
         self.curr_state = ... # track current state
         self.next_state = ... # track next state
-        '''
+        
+
+
         # if no color -> keep searching
         # 
         '''
@@ -202,7 +204,7 @@ class ProxemicDetection(Node):
             self.get_logger().info('Failed to load Depth image')
 
         # Update state machine
-        self.update_state_machine()
+        # self.update_state_machine()
 
     def color_detection(self, img, hsvFrame, kernal, min_width, bounding_boxes, lower_bound, upper_bound, filter, color=None):
         """Apply color filter to RGB image
@@ -344,6 +346,10 @@ class ProxemicDetection(Node):
         # Process image data to detect nearby objects; set distance_to_object
         # Compute to average depth pixel distance to nearby objects
         # Use min distance to detect proximitis zones
+        distance_to_object = None
+        colors = ['red', 'green', 'blue']
+        
+
 
     def update_robot_position(self, x, z, bbox, buffer=10):
         """Update the robot's position based on location of bounding box.

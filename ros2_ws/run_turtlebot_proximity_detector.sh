@@ -1,4 +1,4 @@
-cd ~/ros2_ws/
+cd ~/turtlebot_4/ros2_ws/
 source /opt/ros/galactic/setup.bash
 colcon build
 source install/setup.bash

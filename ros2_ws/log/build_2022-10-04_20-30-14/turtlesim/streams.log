@@ -1,0 +1,6 @@
+[0.195s] Invoking command in '/home/yifu/turtlebot_4/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/yifu/turtlebot_4/ros2_ws/build/turtlesim -- -j4 -l4
+[0.232s] CMake Error: The current CMakeCache.txt directory /home/yifu/turtlebot_4/ros2_ws/build/turtlesim/CMakeCache.txt is different than the directory /home/yifu/ros2_ws/build/turtlesim where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.249s] CMake Error: The source directory "/home/yifu/ros2_ws/src/ros_tutorials/turtlesim" does not exist.
+[0.249s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.254s] make: *** [Makefile:2694: cmake_check_build_system] Error 1
+[0.256s] Invoked command in '/home/yifu/turtlebot_4/ros2_ws/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/yifu/turtlebot_4/ros2_ws/build/turtlesim -- -j4 -l4

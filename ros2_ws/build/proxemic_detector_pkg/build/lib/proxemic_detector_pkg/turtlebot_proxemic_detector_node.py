@@ -344,6 +344,10 @@ class ProxemicDetection(Node):
         # Process image data to detect nearby objects; set distance_to_object
         # Compute to average depth pixel distance to nearby objects
         # Use min distance to detect proximitis zones
+        distance_to_object = None
+        colors = ['red', 'green', 'blue']
+        
+
 
     def update_robot_position(self, x, z, bbox, buffer=10):
         """Update the robot's position based on location of bounding box.
